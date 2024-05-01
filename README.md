@@ -26,11 +26,11 @@ You need to have [`Python 3`](https://www.python.org/) on your system (**a Pytho
 
 - Windows:
         
-        python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirement.txt  
+        python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
 
 - Linux & MacOs:
         
-        python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirement.txt  
+        python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
 
 1. **Create the Python's virtual environment** that isolates the required libraries of the project to avoid conflicts;
 2. **Activate the Python's virtual environment** so that the Python kernel & libraries will be those of the isolated environment;
