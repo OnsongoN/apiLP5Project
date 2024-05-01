@@ -12,8 +12,8 @@ RUN python -m pip install --timeout 300000 -r /tmp/requirements.txt
 # Copy all files into containers working directory
 COPY . /app 
 
-# Expose port 80 outside the container
-EXPOSE 80 
+# Expose port 8077 outside the container
+EXPOSE 8077 
 
 # Run the fastapi application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8077"]

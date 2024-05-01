@@ -17,9 +17,9 @@ class SepssisFeatures(BaseModel):
     Age: int
     Insurance: int
 
-random_forest_pipeline = joblib.load("./models/RandomForest.pkl")
-logistic_regression_pipeline = joblib.load("./models/LogisticRegression.pkl")
-decision_tree_pipeline = joblib.load("./models/Decision_Tree.pkl")
+random_forest_pipeline = joblib.load("./models/random_forest.pkl")
+logistic_regression_pipeline = joblib.load("./models/logistic_regression.pkl")
+decision_tree_pipeline = joblib.load("./models/decision_tree.pkl")
 
 
 def encoder():
